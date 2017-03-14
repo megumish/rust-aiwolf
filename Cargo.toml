@@ -1,5 +1,5 @@
 [package]
-name = "stdio-aiwolf"
+name = "rust-aiwolf"
 version = "0.1.0"
 authors = ["Kawada Keishi <Kk-shli@outlook.jp>"]
 
