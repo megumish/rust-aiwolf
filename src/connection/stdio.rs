@@ -15,7 +15,7 @@ impl<'std> StdIOConnection {
         let process = Command::new(config.path)
                               .arg(config.arg)
                               .spawn()
-                              .expect("failed to execute" + StdIOConfiguration.path);
+                              .expect(("failed to execute ".to_string() + config.path).as_ref());
         StdIOConnection {
             process: process
         }

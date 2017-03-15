@@ -1,6 +1,6 @@
 #[derive(Debug)]
 pub enum Team {
-    VILLAGER,
-    WEREWOLF,
-    OTHERS
+    Villager,
+    Werewolf,
+    Others
 }

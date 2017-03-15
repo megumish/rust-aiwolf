@@ -1,4 +1,5 @@
 use super::common::data::agent::Agent;
+use super::common::net::game_setting::GameSetting;
 
 trait Connection<'conn> {
     fn get_connected_agent_list() -> Vec<Agent>;
