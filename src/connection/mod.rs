@@ -18,9 +18,7 @@ trait Connection<'conn> {
     fn close();
 }
 
-trait Server {
-    fn get_connected_agent_list() -> Vec<Agent>;
-}
+trait Server {}
 
 mod server;
 mod stdio;
