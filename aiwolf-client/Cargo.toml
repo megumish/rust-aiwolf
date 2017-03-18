@@ -1,0 +1,6 @@
+[package]
+name = "aiwolf-client"
+version = "0.1.0"
+authors = ["Keishi Kawada <Kk-shli@outlook.jp>"]
+
+[dependencies]
