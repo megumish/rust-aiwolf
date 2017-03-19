@@ -6,3 +6,4 @@ authors = ["Kawada Keishi <Kk-shli@outlook.jp>"]
 [dependencies]
 lazy_static = "0.2.4"
 num = "0.1.37"
+tokio-core = "0.1"
